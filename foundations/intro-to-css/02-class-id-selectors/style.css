@@ -5,7 +5,7 @@
 }
 
 #second {
-    font: blue;
+    color: rgb(67, 67, 210);
     font-size: 36px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 #fourth {
-    background-color: light green;
+    background-color: rgb(130, 233, 130);
     font-size: 24px;
     font-weight: bold;
 }
