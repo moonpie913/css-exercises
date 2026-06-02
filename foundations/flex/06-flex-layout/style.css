@@ -33,11 +33,11 @@ input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
+  margin: 10px;
   width: 400px;
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
