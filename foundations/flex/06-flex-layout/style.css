@@ -44,3 +44,7 @@ input {
 .left-links, .right-links {
   display: flex;
 }
+
+.header, .footer {
+  display: flex;
+}
