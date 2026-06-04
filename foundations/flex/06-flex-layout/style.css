@@ -21,6 +21,9 @@ ul {
 
 a {
   text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-size: small;
+  color: rgb(34, 34, 34);
 }
 
 li {
@@ -57,4 +60,8 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  background: #ddddddc0;
 }
