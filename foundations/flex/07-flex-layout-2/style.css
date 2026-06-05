@@ -26,13 +26,21 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  display: flex;
+  width: 20%;
   background: royalblue;
   box-sizing: border-box;
 }
 
 .content {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.card-content {
+  display: flex;
+  width: min-content;
+  padding: 20px;
 }
 
 .card {
@@ -41,4 +49,5 @@ body {
   border-radius: 4px;
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
 }
