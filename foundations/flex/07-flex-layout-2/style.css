@@ -19,6 +19,9 @@ a {
   background: darkmagenta;
   color: white;
   justify-content: flex-start;
+  font-weight: bolder;
+  font-size: 28px;
+  padding-left: 15px;
 }
 
 .footer {
