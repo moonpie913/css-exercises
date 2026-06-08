@@ -8,11 +8,14 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 .header {
@@ -21,7 +24,7 @@ a {
   justify-content: flex-start;
   font-weight: bolder;
   font-size: 28px;
-  padding-left: 15px;
+  padding: 0 16px;
 }
 
 .footer {
@@ -37,22 +40,22 @@ a {
 }
 
 .sidebar {
-  display: flex;
-  width: 20%;
+  flex-shrink: 0;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
 }
 
 .content {
   display: flex;
-  flex-wrap: wrap;
-  height: 629px;
+  flex: 1;
 }
 
 .card-content {
   display: flex;
-  width: min-content;
-  padding: 20px;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
 }
 
 .card {
@@ -60,6 +63,6 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
-  flex-wrap: wrap;
   padding: 10px;
+  width: 300px;
 }
